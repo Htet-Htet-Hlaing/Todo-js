@@ -2,7 +2,7 @@ import Swal from "sweetalert2";
 import { doneTaskTotal, listGroup, taskTotal } from "./selectors.js";
 import { v4 as uuidv4 } from "uuid";
 
-export const tasks = ["Apple","Orange","Grapes"];
+export const tasks = ["Reading Book","Web Development","Meditation"];
 
 export const updateTaskTotal = () => {
   //count list and update
